@@ -49,3 +49,6 @@ class TestHundreds:
 
     def test_415(self):
         assert arabic_to_roman(415) == "CDXV"
+
+    def test_215(self):
+        assert arabic_to_roman(415) == "CCXV"
