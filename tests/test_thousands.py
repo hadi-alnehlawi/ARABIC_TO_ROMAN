@@ -31,3 +31,24 @@ class TestThousands:
 
     def test_2405(self):
         assert arabic_to_roman(2405) == "MMCDV"
+
+    def test_1871(self):
+        assert arabic_to_roman(1871) == "MDCCCLXXI"
+
+    def test_3933(self):
+        assert arabic_to_roman(3933) == "MMMCMXXXIII"
+
+    def test_2265(self):
+        assert arabic_to_roman(2265) == "MMCCLXV"
+
+    def test_3026(self):
+        assert arabic_to_roman(3026) == "MMMXXVI"
+
+    def test_1999(self):
+        assert arabic_to_roman(1999) == "MCMXCIX"
+
+    def test_1492(self):
+        assert arabic_to_roman(1492) == "MCDXCII"
+
+    def test_1550(self):
+        assert arabic_to_roman(1550) == "MDL"
