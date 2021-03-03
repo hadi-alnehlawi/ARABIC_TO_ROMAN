@@ -10,9 +10,9 @@ arabic_number: [0..399]
 
 ## Run
 
-1. Docker
+### Docker
 
-As a requisite a docker must be installed, you may check if it is existed:
+As a requisite a docker must be installed:
 
 ```
 $ docker --version
@@ -27,7 +27,7 @@ $ docker build --tag arabic_to_roman .
 $ docker run --rm -ti arabic_to_roman
 ```
 
-2. Manually
+### Manually
 
 As a perquisite virtualenv package might be installed
 
