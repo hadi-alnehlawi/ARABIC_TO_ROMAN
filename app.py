@@ -43,8 +43,10 @@ def validity(num):
                 "message": "The Number Must be: > 0 && < 399"
             }
     except ValueError:
-        print("Not A Valid Arabic Integer")
-        return False
+        return {
+            "success": False,
+            "message": "Not A Valid Arabic Integer"
+        }
 
 
 def arabic_to_roman(arabic_num):
