@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This function is an implementation of a code problem to convert numerals from Arabic number to Roman Numeral using the "standard" subtraction notation (https://en.wikipedia.org/wiki/Roman_numerals).
+This function is an implementation of a code problem to convert Arabic number to Roman Numeral using the "standard" subtraction notation (https://en.wikipedia.org/wiki/Roman_numerals).
 
 The numerals are positive and don’t exceed 3999 in absolute value:
 
