@@ -55,3 +55,6 @@ class TestThousands:
 
     def test_2400(self):
         assert arabic_to_roman(2400) == "MMCD"
+
+    def test_3590(self):
+        assert arabic_to_roman(3590) == "MMMDXC"

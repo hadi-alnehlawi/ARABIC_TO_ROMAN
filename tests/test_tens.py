@@ -29,17 +29,5 @@ class TestTens:
     def test_90(self):
         assert arabic_to_roman(90) == "XC"
 
-    def test_623(self):
-        assert arabic_to_roman(623) == "DCXXIII"
-
-    def test_264(self):
-        assert arabic_to_roman(264) == "CCLXIV"
-
-    def test_442(self):
-        assert arabic_to_roman(442) == "CDXLII"
-
-    def test_676(self):
-        assert arabic_to_roman(676) == "DCLXXVI"
-
-    def test_415(self):
-        assert arabic_to_roman(415) == "CDXV"
+    def test_57(self):
+        assert arabic_to_roman(57) == "LVII"
