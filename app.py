@@ -1,4 +1,4 @@
-maps = {
+decimal_places = {
     "1": "I",
     "2": "II",
     "3": "III",
@@ -63,7 +63,7 @@ def arabic_to_roman(arabic_num):
             weight = weight * 10
         roman = ""
         for item in reversed(positions):
-            roman += maps[str(item)]
+            roman += decimal_places[str(item)]
         return roman
     else:
         return validity_result["message"]

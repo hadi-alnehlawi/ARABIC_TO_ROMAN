@@ -8,6 +8,11 @@ The numerals are positive and don’t exceed 3999 in absolute value:
 
 arabic_number: [0..399]
 
+## Function
+
+The algorithm for this funciton is decmposing the arabic number into its several decimal digits from highest to lowest. Then map Roman numeral equivalent for each.
+This is implemented by storing the decimal digits into a list. The list items then mapped to its roman symbols in order.
+
 ## Run
 
 ### Docker
@@ -46,11 +51,11 @@ $ python app.py
 
 ```
 
-It will prompt to input the arabic number which is required to be converted to Roman numberals. If the input was not valid the function will return the message with error description.
+It will prompt to input the arabic number which is required to be converted to Roman numberals. If the input was not valid the function will return the message with an error description.
 
 ## Test
 
-to run the test script, please execute the following:
+In order to run the test script, please execute the following:
 
 ```
 $ cd ./ARABIC_TO_ROMAN
