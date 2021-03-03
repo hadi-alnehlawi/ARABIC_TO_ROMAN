@@ -10,8 +10,9 @@ arabic_number: [0..399]
 
 ## Implementation
 
-The algorithm for this funciton is decmposing the arabic number into its several decimal digits from highest to lowest. Then map Roman numeral equivalent for each.
-This is implemented by storing the decimal digits into a list. The list items then mapped to its roman symbols in order.
+The algorithm for this funciton is decmposing the arabic number into its several decimal digits from highest to lowest.
+
+This is implemented by storing the decimal digits into a list. Then the list items mapped to its Roman equivalent numerals for each.
 
 ## Run
 
