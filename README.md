@@ -20,13 +20,10 @@ This is implemented by storing the decimal digits into a list, and for each list
 
 As a requisite a docker must be installed
 
-```
-$ docker --version
-```
-
 The docker will create a persisted image of which might be tagged with a name **arabic_to_roman**.
 
 ```
+$ docker --version
 $ cd ./ARABIC_TO_ROMAN
 $ docker build --tag arabic_to_roman .
 ```
