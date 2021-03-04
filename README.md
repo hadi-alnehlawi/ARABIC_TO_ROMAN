@@ -37,15 +37,12 @@ $ docker run --rm -ti arabic_to_roman
 
 As a perquisite virtualenv package might be installed
 
-`$ virtualenv --version`
-
 If not, please visit this [pypi](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) tutorial for more clarification. Follow the below commands in sequence
 
 ```
+$ virtualenv --version
 $ cd ./ARABIC_TO_ROMAN
-
 $ virtualenv venv
-
 $ source venv/bin/activate
 ```
 
