@@ -66,4 +66,4 @@ The input must be number only without any dots or commas
 - 2,410 must be entered 2410 without comma
 - 151.00 must be entered 151 wihtout dot
 
-Otherwise, comman and dot would be considered as string and would return not a valid arabic number
+Otherwise, comman and dot would be considered as strings and would return not a valid arabic number message
