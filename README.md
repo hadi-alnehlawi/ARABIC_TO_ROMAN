@@ -43,6 +43,7 @@ $ virtualenv --version
 $ cd ./ARABIC_TO_ROMAN
 $ virtualenv venv
 $ source venv/bin/activate
+$ pip install -r requirements.txt
 ```
 
 Running the application will prompt to input the arabic number which is required to be converted to Roman numberals. If the input was not valid the function will return the message with an error description.
