@@ -40,4 +40,3 @@ class TestTens:
 
     def test_73(self):
         assert arabic_to_roman(73) == "LXXIII"
-
