@@ -35,12 +35,12 @@ decimal_places = {
 def validity(num):
     try:
         num_int = int(num)
-        if num_int > 0 and num_int < 3999:
+        if num_int > 0 and num_int < 4000:
             return {"success": True, "value": num_int}
         else:
             return {
                 "success": False,
-                "message": "The Number Must be: > 0 && < 399"
+                "message": "The Number Must Be Between 1 && 3999"
             }
     except ValueError:
         return {

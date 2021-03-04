@@ -6,7 +6,7 @@ This function is an implementation of a code problem to convert Arabic numbers t
 
 The numerals are positive and don’t exceed 3999 in absolute value:
 
-arabic_number: [0..399]
+arabic_number: [1..3999]
 
 ## Implementation
 
