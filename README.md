@@ -25,13 +25,15 @@ $ docker --version
 ```
 
 The docker will create a persisted image of which might be tagged with a name **arabic_to_roman**.
-Running the container as below would be automatically purged after closing
 
 ```
 $ cd ./ARABIC_TO_ROMAN
 $ docker build --tag arabic_to_roman .
-$ docker run --rm -ti arabic_to_roman
 ```
+
+Running the container as below would be automatically purged after closing
+
+`$ docker run --rm -ti arabic_to_roman`
 
 ### Manually
 
