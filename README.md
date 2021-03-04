@@ -18,7 +18,7 @@ This is implemented by storing the decimal digits into a list, and for each list
 
 ### Docker
 
-As a requisite a docker must be installed:
+As a requisite a docker must be installed
 
 ```
 $ docker --version
