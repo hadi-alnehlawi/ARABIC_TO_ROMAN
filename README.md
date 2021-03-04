@@ -58,3 +58,10 @@ In order to run the test script, please execute the following:
 $ cd ./ARABIC_TO_ROMAN
 $ pytest
 ```
+
+## Note
+
+the input must be number without any dots or commas:
+
+- 2,410 must be entered 2410 without comma
+- 151.00 must be entered 151 wihtout dot

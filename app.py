@@ -32,7 +32,7 @@ decimal_places = {
 }
 
 
-# helper function to validate the input
+# helper function to validate the user input
 def validity(num):
     '''
     Input: arabic number as a string from the user input
@@ -70,6 +70,7 @@ def arabic_to_roman(arabic_num):
         weight = 1
         positions = []
         num = validity_result["value"]
+        # get its several decimal digits from highest to lowest
         while num != 0:
             x = num % 10
             if x != 0:
@@ -77,10 +78,13 @@ def arabic_to_roman(arabic_num):
             num = num // 10
             weight = weight * 10
         roman = ""
+        # map each item into its equavalent roman numberal
         for item in reversed(positions):
             roman += decimal_places[str(item)]
+        # success
         return roman
     else:
+        # failed
         return validity_result["message"]
 
 # app implementation
