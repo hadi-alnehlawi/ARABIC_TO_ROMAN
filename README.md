@@ -39,7 +39,7 @@ As a perquisite virtualenv package might be installed
 
 `$ virtualenv --version`
 
-If not, please visit this [pypi](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) tutorial for more clarification. Follow the below commands in sequence:
+If not, please visit this [pypi](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) tutorial for more clarification. Follow the below commands in sequence
 
 ```
 $ cd ./ARABIC_TO_ROMAN
