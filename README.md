@@ -47,12 +47,14 @@ $ cd ./ARABIC_TO_ROMAN
 $ virtualenv venv
 
 $ source venv/bin/activate
+```
 
+Running the application will prompt to input the arabic number which is required to be converted to Roman numberals. If the input was not valid the function will return the message with an error description.
+
+```
 $ python app.py
 
 ```
-
-It will prompt to input the arabic number which is required to be converted to Roman numberals. If the input was not valid the function will return the message with an error description.
 
 ## Test
 
